@@ -1,0 +1,3 @@
+# Publick
+
+Môj prvý repozitár
