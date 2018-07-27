@@ -24,3 +24,37 @@
 </body>
 
 </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+[, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Images</title>
+</head>
+
+<body>
+    <img src="img/frankfurt.jpg" alt="Image of Frankfurt"
+    onclick="window.open('img/frankfurt.jpg','Frankfurt','height=1000, width=500')">
+        
+    <br>
+    <img src="img/iceland.jpg" alt="Image of Iceland">
+    <br>
+    <img width="1000"  src="img/stockholm.jpg" alt="Image of Stockholm">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Prague_Montage.jpg/800px-Prague_Montage.jpg" alt="Image of Prague">
+
+
+
+
+</body>
+
+</html>
