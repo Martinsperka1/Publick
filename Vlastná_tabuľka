@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KALENDÁR</title>
+    <style>
+        table {
+            border: 1px solid green;
+            border-collapse: collapse;
+
+        }
+
+        td,
+        th {
+            padding: 5px;
+            border: 1px solid green;
+        }
+
+        tbody tr:nth-child(even) {
+            background: rgb(140, 140, 229);
+        }
+
+        td :hover {
+            background:yellowgreen;
+        }
+    </style>
+</head>
+<table>
+    <caption>ŠTATISTIKA</caption>
+
+    <tr>
+        <th scope="col">AGE</th>
+        <th scope="col">SEX</th>
+        <th scope="col">OCCUPATION</th>
+        <th scope="col">ADDRESS</th>
+    </tr>
+<tr>
+    <th scope="row">MARTIN</th>
+    <td>25</td>
+    <td>Unemployed</td>
+    <td>Bratislava</td>
+</tr>
+<tr>
+    <th scope="row">ADAM</th>
+    <td>25</td>
+    <td>Creator</td>
+    <td>Petržalka</td>
+</tr>
+<tr>
+    <th scope="row">JOHNNY</th>
+    <th>26</th>
+    <th>Officer</th>
+    <th>Znievska 38</th>
+</tr>
+<tr>
+    <th scope="row">DOMINIK</th>
+    <td>24</td>
+    <td>Hotel manager</td>
+    <td>Vlčie hrdlo</td>
+</tr>
+</table>
+
+<body>
+
+
+</body>
+
+</html>
