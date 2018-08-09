@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mystyle.css" >
+
+   
+     
+</head>
+<body>
+    
+<header>
+    <h1>Title of page</h1>
+    <img onclick="toggleMenu()" id="hicon" src="Hamburger_icon.svg.png" alt="Hamburger_icon" >
+
+    <nav>
+        <ul id="menu-box" style="display: block">
+            <li>
+                <a href="#">Start</a>
+            </li>
+            <li>
+                <a href="#">Animal</a>
+            </li>
+            <li>
+                <a href="#">Pictures</a>
+            </li>
+        </ul>
+
+
+
+    </nav>
+  
+     
+
+
+</header>
+
+
+<main>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sed saepe ab dignissimos, dolorum
+     consequatur accusantium sit fugiat, minus culpa repellat beatae rem corporis commodi. 
+     Et sit ex dolorum reiciendis.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius, veniam molestias voluptates ducimus, 
+    id exercitationem eveniet soluta laboriosam, dolore sapiente? Voluptatem rem quod dolorum.</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Dignissimos eum aut sint, aperiam sapiente autem. 
+        Dicta officia ut ad voluptatibus!</p>
+
+        <ul>
+            <li>green</li>
+            <li>red</li>
+            <li>blue</li>
+            <li>yellow</li>
+            <li>black</li>
+            <li>white</li>
+        </ul>
+
+
+        <ol>
+            <li>Paris</li>
+            <li>Honkgong</li>
+            <li>London</li>
+            <li>Berlin</li>
+            <li>Zurich</li>
+
+        </ol>
+    </main>
+
+    <footer>
+
+        copyright AB comp, 2018
+    </footer>
+
+    <script>
+ 
+        function toggleMenu() {
+            var menuBox = document.getElementById('menu-box');
+            if (menuBox.style.display == "block") {
+                menuBox.style.display = "none";
+            }
+            else {
+                menuBox.style.display = "block";
+            }
+        }
+ 
+    </script>
+</body>
+</html>
